@@ -1,0 +1,44 @@
+:root{ --cor-fundo: #F7F7F7;
+    --cor-fonte: #333;
+    --cor-fundo2: #ffffff;
+}
+ 
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:var(--cor-fundo);
+    color: var(--cor-fonte);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    margin: 0;
+}
+
+.recipe{
+    width: 350px;
+    background-color:var(--cor-fundo2) ;
+    border-radius: 15px;
+    box-shadow: 0,8px,16px rgba(0, 0, 0, 1);
+    overflow: hidden;
+}
+.image{
+    width: 100%;
+    display: block;
+}
+
+.content{
+    padding: 25px;
+}
+.title{
+    font-size: 1.5rem;
+    color: var(--cor-fonte);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.description{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color:var(--cor-fonte);
+    margin-bottom: 0;
+}
